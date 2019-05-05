@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact | T.Y Photography</title>
+    <meta name="keywords" content="Photography">
+    <meta name="description" content="A portfolio site for my professional photograpghy.">
+    <link href="https://fonts.googleapis.com/css?family=Forum|Raleway|EB+Garamond|Ropa+Sans:400,400i|Libre+Baskerville:400,400i|Open+Sans:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/styles/styles-1e63218a0b.css">
+    <script src="assets/scripts/mouse-4a8b78cbdf.js"></script>
+</head>
+<body>
+    <div class="site-header">
+        <div class="wrapper-nav">
+            <div class="site-header__menu-icon">
+                <div class="site-header__menu-icon__middle"></div>
+            </div>
+            <img class="site-header__logo" src="assets/images/logos/logo.png" alt="T.Y. Photography">
+            <div class="site-header__menu">
+                <nav class="primary-nav">
+                    <ul>
+                        <li><a href="index.html" class="site-header__menu-links">Home</a></li>
+                        <li><a href="portraits.html" class="site-header__menu-links">Portraits</a></li>
+                        <li><a href="commercial.html" class="site-header__menu-links">Commercial</a></li>
+                        <li><a href="graduation.html" class="site-header__menu-links site-header__menu-links-graduation">Graduation</a></li>
+                        <li class="site-header__dropdown"><span>More</span>
+                            <ul class="site-header__dropdown-list">
+                                <li><a href="travel.html" class="site-header_menu-links">Travel</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html" class="site-header__menu-links">About</a></li>
+                        <li><a href="testimonials.html" class="site-header__menu-links">Testimonials</a></li>
+                        <li><a href="contact.html" class="site-header__menu-links site-header__menu-links-active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="site-header__social">
+                    <a href="https://www.facebook.com/TyLiPhoto/" target="_blank"><img class="site-header__social-fb" src="assets/images/icons/facebook.png" alt="facebook"></a>
+                    <a href="https://www.youtube.com/channel/UCaJ_gRbOX6qZSLflKLEDbbw?view_as=subscriber" target="_blank"><img class="site-header__social-yt" src="assets/images/icons/youtube.png" alt="youtube"></a>
+                    <a href="https://www.instagram.com/t.y.li/" target="_blank"><img class="site-header__social-ig" src="assets/images/icons/instagram.png" alt="instagram"></a>
+            </div>
+            <div class="site-header__menu-mbl" onclick="menuTransform(this)">
+                <div class="site-header__menu-bar1"></div>
+                <div class="site-header__menu-bar2"></div>
+                <div class="site-header__menu-bar3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="primary-nav__mbl">
+        <nav class="primary-nav__mbl-container">
+            <ul>
+                <li><a href="index.html" class="site-header__menu-links">Home</a></li>
+                <li><a href="portraits.html" class="site-header__menu-links site-header__menu-links-active">Portraits</a></li>
+                <li><a href="commercial.html" class="site-header__menu-links">Commercial</a></li>
+                <li><a href="graduation.html" class="site-header__menu-links site-header__menu-links-graduation">Graduation</a></li>
+                <li><a href="travel.html" class="site-header__menu-links">Travel</a></li>
+                <li><a href="about.html" class="site-header__menu-links">About</a></li>
+                <li><a href="testimonials.html" class="site-header__menu-links">Testimonials</a></li>
+                <li><a href="contact.html" class="site-header__menu-links site-header__menu-links-active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contact-section">
+        <div class="contact-section-black">
+        </div>
+        <div class="contact-section-white">
+        </div>
+        <div class="contact-section__form-bg">
+            <div class="contact-section__form-container">
+                <div class="contact-section__form-title">
+                    <h2>LET'S HANG!</h2>
+                    <p>Thank you so much for your interest in T.y. Li Photography! Use this form to ask me
+                        any questions, inquire about booking a session, whether it is for engagement,
+                        Graduation, Family Portrait or Others! I can't wait to hear from you!
+                    </p>
+                </div>
+                <div class="contact-section__form">
+                    <form action="https://formspree.io/your@email.com" method="POST">
+                        <span class="contact-section__form-label contact-section__form-label-req">Name</span>
+                        <div class="contact-section__form-field">
+                            <input class="contact-section__form-field-name" type="text" name="First" placeholder="First" required>
+                            <input class="contact-section__form-field-name"type="text" name="Last" placeholder="Last" required>
+                        </div>
+                        <span class="contact-section__form-label contact-section__form-label-req">Email</span>
+                        <div class="contact-section__form-field">
+                            <input type="email" name="_replyto" required>
+                        </div>
+                        <span class="contact-section__form-label">Phone</span>
+                        <div class="contact-section__form-field">
+                            <input type="text" name="Phone" placeholder="### ### ####">
+                        </div>
+                        <span class="contact-section__form-label">Preferred Date and Location (If Applicable)</span>
+                        <div class="contact-section__form-field">
+                            <input type="text" name="Location">
+                        </div>
+                        <span class="contact-section__form-label contact-section__form-label-req">What type of session are you looking for?</span>
+                        <div class="contact-section__form-field">
+                            <select class="contact-section__form-field-session" name="session_type" size="7" required>
+                                <option value="Social/Creative Content">Social/Creative Content</option>
+                                <option value="Graduation">Graduation</option>
+                                <option value="Engagement">Engagement</option>
+                                <option value="Wedding">Wedding</option>
+                                <option value="Business Headshots">Business Headshots</option>
+                                <option value="Family Portrait">Family Portrait</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <span class="contact-section__form-label contact-section__form-label-req">How did you hear about T.y. Li Photography?</span>
+                        <div class="contact-section__form-field">
+                            <select class="contact-section__form-field-where"name="where_type" size="5" required>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Instagram">Instagram</option>
+                                <option value="Friend/ Relative Referral">Friend/ Relative Referral</option>
+                                <option value="Google/Internet Search">Google/Internet Search</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <span class="contact-section__form-label contact-section__form-label-req">What is your FAVORITE TV Show? (VERY Important)</span>
+                        <div class="contact-section__form-field">
+                            <input type="text" name="tv_show" required>
+                        </div>
+                        <span class="contact-section__form-label">Do you have a Website, FB or IG? I'd love to follow you!)</span>
+                        <div class="contact-section__form-field">
+                            <input type="text" name="social_media">
+                        </div>
+                        <span class="contact-section__form-label">Message (You can include as much information as you'd like!)</span>
+                        <div class="contact-section__form-field">
+                            <textarea name="message"></textarea>
+                         </div>    
+                    </form>
+                </div>
+                <button class="btn-contact" type="submit">Send Message</button>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer site-footer-about">
+        <div class="wrapper site-footer__contact">
+            <p>T.y. Li Photography | Los Angeles / Orange County, California | Josephilty@hotmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
